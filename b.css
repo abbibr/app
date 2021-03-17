@@ -1,0 +1,82 @@
+*
+{
+    margin: 5;
+    box-sizing: border-box;
+}
+
+.b
+{
+    border:5px inset blue;
+    font-size: 100px;
+    text-align: center;
+    border-radius: 17px;
+    color:red;
+}
+
+#abd
+{
+    font-size:57px;
+}
+
+.a
+{
+    font-size:100px;
+    text-align: center;
+}
+
+.a:hover
+{
+    margin:10;
+    color: red;
+    font-size: 350px;
+    transition: 1.5s;
+}
+
+.Uzbekistan
+{
+    width: 50rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    height: 25rem;
+    height: 25rem;
+    border: 1px solid black;
+    box-shadow: 4px 8px 16px 0, inset 0 8rem 0 blue,
+    inset 0 8.5rem 0 red, inset 0 16.5rem 0 white, 
+    inset 0 17rem 0 red, inset 0 25rem 0 green;
+    padding: 0.5rem 4rem;
+}
+
+.Uzbekistan::before
+{
+    content: " ";
+    width: 7rem;
+    height: 7rem;
+    border-radius:50%;
+    position: absolute;
+    box-shadow: inset 1rem 0 0.1rem white;
+}
+
+.Uzbekistan::after
+{
+    content: "\2605";
+    position: absolute;
+    color: white;
+    font-size: 1.8rem;
+    line-height: 100%;
+    top: 5.9rem;
+    left: 9rem;
+    text-shadow: 2.5rem 0 0, 5rem 0 0, 7.5rem 0 0, 10 rem 0 0, 2.5rem -2.8rem 0, 5rem -2.8rem 0,
+    7.5rem -2.8rem 0, 10rem -2.8rem 0, 5rem -5.6rem 0, 7.5rem -5.6rem 0, 10rem -5.6rem 0;
+}
+
+#salom
+{
+    font-size: 57px;
+}
+
+.wow
+{
+    font-size: 57px;
+}
